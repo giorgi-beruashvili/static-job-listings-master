@@ -211,7 +211,6 @@ const addElemetsInAr = () => {
             if(events.length > 0) {
                 events = []
                 const divBtnImg = document.querySelectorAll('.div-btn-img')
-                console.log(divBtnImg)
                 for(let i = 0; i < divBtnImg.length; i++) {
                     divBtnImg[i].remove()
                }
